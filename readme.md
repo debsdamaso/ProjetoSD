@@ -178,4 +178,4 @@ Atualiza os dados do medicamento com o `id` informado no path, utilizando as inf
 |200| Medicamento atualizado com sucesso
 |400| Validação falhou. Verifique o corpo da requisição
 |401| Não autenticado. Se autentique em /login
-|404| Não existe medicamento com o `id` informado
+|404| Não existe medicamento com o `id` informado# ProjetoSD
