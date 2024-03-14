@@ -40,7 +40,7 @@ public class MedicamentoService {
         if (medicamentoOptional.isPresent()) {
             Medicamento medicamento = medicamentoOptional.get();
             medicamento.setNome(medicamentoAtualizado.getNome());
-            medicamento.setfabricante(medicamentoAtualizado.getfabricante());
+            medicamento.setFabricante(medicamentoAtualizado.getFabricante());
             medicamento.setQuantidade(medicamentoAtualizado.getQuantidade());
             return Optional.of(medicamentoRepository.save(medicamento));
         } else {
