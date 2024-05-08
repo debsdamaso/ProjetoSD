@@ -11,11 +11,15 @@ import jakarta.persistence.Table;
 import jakarta.validation.Valid;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 
 @Table(name="medicamentos")
 @Entity(name="medicamento")
 @Data
 @NoArgsConstructor
+@Builder
+@AllArgsConstructor
 public class Medicamento {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -15,12 +15,15 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import lombok.Builder;
+
 @Table(name = "funcionarios")
 @Entity(name = "Funcionario")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
+@Builder
 
 public class Funcionario {
 
