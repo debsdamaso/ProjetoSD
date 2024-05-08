@@ -69,8 +69,8 @@ public class UsuarioController {
 	}
 	
 	@GetMapping
-	@Operation(summary = "Busque todos os usuários cadrastados",
-	description ="Busque todos os usuários cadrastados", 
+	@Operation(summary = "Busque todos os usuários cadastrados",
+	description ="Busque todos os usuários cadastrados", 
 	tags = {"Usuários"},
 	
 	responses = {

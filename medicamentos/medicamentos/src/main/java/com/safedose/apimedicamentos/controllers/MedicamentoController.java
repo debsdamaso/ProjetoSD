@@ -70,8 +70,8 @@ public class MedicamentoController {
 	}
 
 	@GetMapping
-	@Operation(summary = "Busque todos os remédios cadrastados",
-	description ="Busque todos os remédios cadrastados", 
+	@Operation(summary = "Busque todos os remédios cadastrados",
+	description ="Busque todos os remédios cadastrados", 
 	tags = {"Remédios"},
 	
 	responses = {

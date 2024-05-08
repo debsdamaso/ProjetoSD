@@ -3,9 +3,12 @@
 ## Documentação da API de Medicamentos - Gestão de Medicamentos (Via swagger)
 
 Baixe o projeto, rode em uma IDE de sua preferência e acesse a url abaixo no seu navegador
-para visualizar a documentação (métodos get, put, post, put e json):
+para visualizar a documentação via swager:
  
- 
+URL Curta:
+http://localhost:8080/docs
+
+URL oficial:
 http://localhost:8080/swagger-ui/index.html
 
  

@@ -62,8 +62,8 @@ public class FuncionarioController {
 	}
 
 	@GetMapping
-	@Operation(summary = "Busque todos os funcionários cadrastados",
-	description ="Busque todos os funcionários cadrastados", 
+	@Operation(summary = "Busque todos os funcionários cadastrados",
+	description ="Busque todos os funcionários cadastrados", 
 	tags = {"Funcionários"},
 			responses = {
 					@io.swagger.v3.oas.annotations.responses.ApiResponse( responseCode = "200",content = @Content(
