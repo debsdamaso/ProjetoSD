@@ -11,7 +11,7 @@ public interface FuncionarioRepository extends JpaRepository<Funcionario, Long>{
 	@Query
 	Funcionario findByNome(@Param("name") String name);
 
-	// Método para salvar uma lista de funcionários
+	// Salva uma lista de funcionários
     @Override
     <S extends Funcionario> List<S> saveAll(Iterable<S> funcionarios);
 
